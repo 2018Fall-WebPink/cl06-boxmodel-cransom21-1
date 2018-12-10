@@ -1,0 +1,36 @@
+/*
+* Celea Ransom
+* Due Date
+* san guac
+*/
+
+/* The universal selector */ /* did you mean: the bane of my existence*/
+
+*  { /*using the universal selector, we remove all previous margins and padding.*/
+margin: 0;
+padding: 0;
+}
+
+/* Body attributes here */
+/*em is used as a relative size. it changes based on the font size. challenging? yes. worth it? also yes*/
+
+body {
+border: dashed black; /*border and margina and padding are used to create the right spacing. if u pay attention to detail this project is excruciatingly difficult*/
+margin: 0.25em 0.5em 0.25em;
+}
+main {
+    border: solid black;
+    margin: 1.5em 6em 1.5em 1.5em;
+}
+h1 {
+    border: thin dashed black; 
+    margin: 1em 0.25em 0.25em 0.25em;
+    padding: 0.25em;
+}
+p {
+    border:thin dashed black;
+    margin: 0.75em 0.5em 0.5em 0.5em;
+    padding: 1em 1em 0.5em 0.5em;
+
+}
+/* for the record, this project drove me insane at about 10:30 at night on sunday.*/
